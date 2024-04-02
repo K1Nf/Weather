@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PogodaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6783B710-8753-4FEE-98B5-58B761A236D3}|PogodaApp\\PogodaApp\\PogodaApp.csproj|c:\\users\\user\\source\\repos\\pogodaapp\\pogodaapp\\pogodaapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6783B710-8753-4FEE-98B5-58B761A236D3}|PogodaApp\\PogodaApp\\PogodaApp.csproj|solutionrelative:pogodaapp\\pogodaapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6783B710-8753-4FEE-98B5-58B761A236D3}|PogodaApp\\PogodaApp\\PogodaApp.csproj|c:\\users\\user\\source\\repos\\pogodaapp\\pogodaapp\\pogodaapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{6783B710-8753-4FEE-98B5-58B761A236D3}|PogodaApp\\PogodaApp\\PogodaApp.csproj|solutionrelative:pogodaapp\\pogodaapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 482,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PogodaApp\\PogodaApp\\PogodaApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PogodaApp\\PogodaApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PogodaApp\\PogodaApp\\PogodaApp\\MainPage.xaml",
+              "RelativeToolTip": "PogodaApp\\PogodaApp\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-15T10:05:22.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PogodaApp\\PogodaApp\\PogodaApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PogodaApp\\PogodaApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PogodaApp\\PogodaApp\\PogodaApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "PogodaApp\\PogodaApp\\MainPage.xaml.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAIA7wFAAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T10:12:16.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 74,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 672,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1883,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

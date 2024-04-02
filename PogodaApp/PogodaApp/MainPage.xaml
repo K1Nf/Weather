@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PogodaApp.MainPage"
+             BackgroundImageSource="https://i.pinimg.com/originals/05/14/ec/0514ec320087ee6e6c7543aa9acd3e67.jpg">
+
+    <StackLayout>
+        <StackLayout Padding="10" Margin="10">
+            <Label Text="Погода без регистраии и смс" Margin="0,0,0,10" HorizontalTextAlignment="Center" FontSize="24" TextColor="Black"></Label>
+            <Label Text="Выберите город"  FontSize="20" TextColor="Black"></Label>
+            <Picker x:Name="Cities" WidthRequest="140" Title="Город" FontSize="24" TextColor="Black">
+                <Picker.Items>
+                    <x:String>г. Ханты-Мансийск</x:String>
+                    <x:String>г. Санкт-Петербург</x:String>
+                    <x:String>г. Екатеринбург</x:String>
+                    <x:String>г. Тмень</x:String>
+                    <x:String>г. Москва</x:String>
+                </Picker.Items>
+            </Picker>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Укажите, на сколько дней нужен прогноз" FontSize="20" TextColor="Black" WidthRequest="250"></Label>
+                <Entry Keyboard="Numeric" WidthRequest="50" x:Name="daysEntry" ></Entry>
+            </StackLayout>
+                
+            <Button Text="Узнать прогноз" x:Name="Zapros" Clicked="Zapros_Clicked" />
+            <Label Text="" FontSize="20" TextColor="Black" x:Name="Title"></Label>
+        </StackLayout>
+        <StackLayout Margin="0,0,0,15">
+            <ListView RowHeight="250" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="days" ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="DarkSlateBlue" HeightRequest="500" WidthRequest="1000">
+                                    <StackLayout BackgroundColor="WhiteSmoke" Padding="5" Margin="5">
+                                        <Label Text="{Binding date}" TextColor="Black" FontSize="28"></Label>
+                                        <!--<Image Source="{Binding parts.day_short.icon}" HeightRequest="10" WidthRequest="10" Margin="0"></Image>-->
+                                        
+                                        <StackLayout Orientation="Horizontal">
+                                            <!--<Label Text="Температура (°C):" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="20"></Label>-->
+                                            <Image Source="https://chopio.club/uploads/posts/2022-07/1656870428_1-beolin-club-p-temperatura-risunok-dlya-detei-krasivo-1.jpg" HeightRequest="40" WidthRequest="40"></Image>
+                                            <Label Text="{Binding parts.day_short.temp_min} " TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="°C (день)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                            <Label Text="{Binding parts.night_short.temp} " TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="°C (ночь)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <!--<Label Text="Ветер (м/с):" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="20"></Label>-->
+                                            <Image Source="https://gas-kvas.com/uploads/posts/2023-02/1676783766_gas-kvas-com-p-veter-risunki-na-temu-veter-50.jpg" HeightRequest="40" WidthRequest="40"></Image>
+                                            <Label Text="{Binding parts.day_short.wind_speed}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="м/с (день)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                            <Label Text="{Binding parts.night_short.wind_speed}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="м/с (ночь)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <!--<Label Text="Давление (мм):" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="20"></Label>-->
+                                            <Image Source="https://www.vladtime.ru/uploads/posts/2015-09/1442069389_pr_source.png" HeightRequest="40" WidthRequest="40"></Image>
+                                            <Label Text="{Binding parts.day_short.pressure_mm}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="мм (день)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                            <Label Text="{Binding parts.night_short.pressure_mm}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="мм (ночь)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <!--<Label Text="Влажность (%):" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="20"></Label>-->
+                                            <Image Source="https://pictures.pibig.info/uploads/posts/2023-04/1681814314_pictures-pibig-info-p-veter-raskraska-dlya-detei-instagram-1.jpg" HeightRequest="40" WidthRequest="40"></Image>
+                                            <Label Text="{Binding parts.day_short.humidity}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="% (день)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                            <Label Text="{Binding parts.night_short.humidity}" TextColor="Blue" Margin="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                            <Label Text="% (ночь)" VerticalTextAlignment="Center" TextColor="Black" Margin="0" HorizontalTextAlignment="Center" FontSize="14"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

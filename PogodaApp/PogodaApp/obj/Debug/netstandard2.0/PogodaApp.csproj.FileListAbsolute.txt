@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\bin\Debug\netstandard2.0\PogodaApp.deps.json
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\bin\Debug\netstandard2.0\PogodaApp.dll
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\bin\Debug\netstandard2.0\ref\PogodaApp.dll
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\bin\Debug\netstandard2.0\PogodaApp.pdb
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.AssemblyInfo.cs
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.sourcelink.json
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.dll
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\refint\PogodaApp.dll
+C:\Users\User\source\repos\PogodaApp\PogodaApp\PogodaApp\obj\Debug\netstandard2.0\PogodaApp.pdb
